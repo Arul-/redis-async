@@ -7,12 +7,12 @@ redis-async
 How to use
 ------
 
-####1. Install swoole extension
+#### 1. Install swoole extension
 ```shell
 pecl install swoole
 ```
 
-####2. Run example code
+#### 2. Run example code
 ```php
 require __DIR__.'/src/Swoole/Async/RedisClient.php';
 $redis = new Swoole\Async\RedisClient('127.0.0.1');
